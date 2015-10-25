@@ -1,0 +1,2 @@
+javac -encoding utf8 -classpath ".;./chilkat.jar" decro.java
+java -Djava.library.path=. -classpath ".;./chilkat.jar" decro
