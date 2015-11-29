@@ -38,7 +38,8 @@ class Gen implements Runnable {
 			long n=1;
 			boolean temp, isp = false;
 			while (!isp) {
-				for (int i=0; i<d; i++){
+				n=1;
+				for (int i=2; i<d; i++){
 					temp = rand.nextBoolean();
 					n += (temp) ? Math.pow((double)2,(double)i) : 0;
 				}
